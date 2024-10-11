@@ -1,5 +1,5 @@
 const config = {
-  mode: "in", // 签到:in,签退:out
+  mode: "out", // 签到:in,签退:out
   accounts: [
     {
       username: "", //用户名
