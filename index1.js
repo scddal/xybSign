@@ -1,5 +1,5 @@
 const { getHeaders } = require("./utils/xyb.js");
-let { config, apis, reports } = require("./config.js");
+let { config, apis, reports } = require("./config1.js");
 const { sendMsg } = require("./utils/qmsg.js");
 const axios = require("axios");
 const fs = require("fs");
