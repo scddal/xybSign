@@ -384,7 +384,7 @@ const getHeaders = function (url, data) {
     "Accept-Language": "zh-cn",
     "content-type": "application/x-www-form-urlencoded",
     v: "1.6.36",
-    // xweb_xhr: 1,
+    xweb_xhr: 1,
   };
   let n = Z.nocheckArrs(data).join(","),
     a = Z.getTokenData(data, url);
